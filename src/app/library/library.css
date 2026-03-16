@@ -1,0 +1,72 @@
+.container {
+  max-width: 1100px;
+  margin: auto;
+  padding: 40px 20px;
+  font-family: Georgia, serif;
+}
+
+.heading {
+  font-size: 42px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  text-align: center;
+  color: #777;
+  margin-bottom: 40px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 25px;
+}
+
+.card {
+  background: white;
+  border-radius: 14px;
+  padding: 25px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+  transition: transform 0.2s ease;
+  cursor: pointer;
+}
+
+.card:hover {
+  transform: translateY(-6px);
+}
+
+.tag {
+  font-size: 12px;
+  font-weight: bold;
+  padding: 6px 12px;
+  border-radius: 20px;
+}
+
+.poem {
+  background: #f0e7ff;
+  color: #6a38c2;
+}
+
+.story {
+  background: #e6f7ff;
+  color: #0077b6;
+}
+
+.title {
+  margin-top: 12px;
+  font-size: 22px;
+}
+
+.excerpt {
+  margin: 12px 0;
+  color: #555;
+  line-height: 1.5;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  color: #888;
+}
